@@ -1,0 +1,411 @@
+<!--Name: Serena Edwards
+    ID: 2306227
+    Lecturer: Ms. Christine Anuli
+    Module Name: Web Programming
+    Occurrence: UM2
+    Day and Time: Thursday 1pm to 3pm--->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stitch & Thread Co - Products.</title>
+         <link rel="stylesheet" href="style.css">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+      <!-- Header -->
+  <header>
+    <h1>Stitch & Thread Co.</h1>
+    <nav>
+      <a href="aboutUs.html"><span class="material-icons">info</span> About Us</a>
+      <a href="products.html"><span class="material-icons">shopping_bag</span> Products</a>
+      <a href="cart.html"><span class="material-icons">shopping_cart</span> Cart</a>
+      <a href="checkout.html"><span class="material-icons">shopping_cart_checkout</span> Checkout</a>
+      <a href="contactUs.html"><span class="material-icons">contact_mail</span> Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Sidebar + Content -->
+  <div class="main-container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>My Account</h2>
+      <a href="profile.html"><span class="material-icons">person</span> Profile</a>
+      <a href="orders.html"><span class="material-icons">receipt_long</span> Orders</a>
+      <a id="logoutBtn" href="#"> <span class="material-icons">logout</span> Logout</a>
+
+      <h2>Shop By Category</h2>
+      <a href="#Clothes"><span class="material-icons">checkroom</span> Clothes</a>
+      <a href="#Bags"><span class="material-icons">work_outline</span> Bags & Accessories</a>
+      <a href="#Jewelry"><span class="material-icons">diamond</span> Jewelry</a>
+    </div>
+
+    <!-- Main Content -->
+<div class="content">
+<section id="Clothes" class="product-section">
+    <h2>Clothes</h2>
+     
+    <div class="product-grid">
+        <div class="product-card">
+
+        <img src="babyBlueSet.png" alt="Baby Blue Two Piece Shorts Set">
+        <h3>Baby Blue Two Piece Shorts Set</h3>
+        <p>$3800</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="whiteBlouse.png" alt="White Halter Top">
+        <h3>White Halter Back Top</h3>
+        <p>$2700</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="ruffleSkirt.png" alt="Ruffle Skirt">
+        <h3>Pink and Black Ruffle Skirt</h3>
+        <p>$2200</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="beigeMeshTop.png" alt="Beige Mesh Top">
+        <h3>Beige Mesh Top</h3>
+        <p>$6000</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="reggaeTwoPiece.png" alt="White Halter Top">
+        <h3>Reggae Jamming Shorts Two Piece</h3>
+        <p>$4700</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="orangeKiwiSet.png" alt="Orange Kiwi Set">
+        <h3>Orange Kiwi Shorts Set</h3>
+        <p>$4200</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+        
+        <div class="product-card">
+        <img src="brownSweater.png" alt="Brown and White Sweater Top">
+        <h3>Brown and White Sweater Top</h3>
+        <p>$4000</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="strawberrySwimSuit.png" alt="Strawberry Swim Suit">
+        <h3>Strawberry Shortcake Swim Set</h3>
+        <p>$6100</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="greenTeaSet.png" alt="Green Skirt Set">
+        <h3>Green Ethereal Maxi Skirt</h3>
+        <p>$6500</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="dateNightDress.png" alt="Long Date Night Dress">
+        <h3>White Date Night Dress</h3>
+        <p>$7000</p>
+        <label for="size">Size:</label>
+          <select class="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+          </select>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+    </div>
+    </section>
+
+    <section id="Bags" class="product-section">
+        <h2>Bags and Accessories</h2>
+
+         <div class="product-grid">
+
+            <div class="product-card">
+            <img src="bottleHolder.png" alt="Bottle Holder">
+            <h3>Bottle Holder</h3>
+            <p>$1000</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+      
+            <div class="product-card">
+            <img src="headscarf.png" alt="Head Scarf">
+            <h3>Blue Head Tie/Scarf</h3>
+            <p>$1800</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="cherryBagCharm.png" alt="Bag Charm">
+            <h3>Cherry Bag Charm</h3>
+            <p>$700</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="bowTote.png" alt="Tote Bag">
+            <h3>Bow Tote Bag</h3>
+            <p>$5600</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="sunflowerScrunchie.png" alt="Scrunchie">
+            <h3>Sunflower Scrunchie</h3>
+            <p>$800</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="brownDuffle.png" alt="Brown Duffle Bag">
+            <h3>Brown Duffle Bag</h3>
+            <p>$5000</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="Headband.png" alt="Head Band">
+            <h3>Multicoloured Headband</h3>
+            <p>$1000</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="ruffleHat.png" alt="Ruffle Beanie">
+            <h3>Ruffle Beanie</h3>
+            <p>$3500</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="flowerbookMarker.png" alt="Book Mark">
+            <h3>Book Mark</h3>
+            <p>$1000</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="airPodcase.png" alt="AirPod Case">
+            <h3>AirPod Case</h3>
+            <p>$1500</p>
+            <label for="qty">Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10" value="1">
+            <br> <br> <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Jewelry"class="product-section">
+    <h2>Jewelry</h2>
+    <div class="product-grid">
+    
+        <div class="product-card">
+        <img src="earringEight.png" alt="Eight Piece Earring Set">
+        <h3> (8) Piece Earring Set</h3>
+        <p>$5500</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="flowerHoop.png" alt="Flower Hoop Earrings">
+        <h3>Flower Hoop Earring</h3>
+        <p>$1200</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="necklaceThree.png" alt="Necklace Three Piece">
+        <h3> (3) Gold Necklace with Flower Pendant</h3>
+        <p>$4500</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="braceletFour.png" alt="Bracelet Four Piece">
+        <h3>(4) Gold Bracelets with Flower Charms</h3>
+        <p>$4800</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="sunFlowerEarring.png" alt="Sunflower Earring">
+        <h3>Dangling Sunflower Earring</h3>
+        <p>$1800</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="pinkFlowerEarring.png" alt="Pink Flower Earring">
+        <h3>Pink Earring </h3>
+        <p>$1800</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="silverNecklace.png" alt="Silver Necklace">
+        <h3>Silver Necklace with Multicoloured Charms </h3>
+        <p>$2100</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="blueFlowerBracelet.png" alt="Blue Bracelet">
+        <h3>Blue Dainty Bracelet</h3>
+        <p>$1000</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="strawberryEarrings.png" alt="Strawberry Earrings">
+        <h3>Strawberry Earrings</h3>
+        <p>$1300</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+        <img src="orangeEarrings.png" alt="Orange Earrings">
+        <h3>Orange Earrings</h3>
+        <p>$1400</p>
+        <label for="qty">Quantity:</label>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br> <br> <button>Add to Cart</button>
+        </div>
+    </div>
+       </section>
+   </div>
+</div>
+        <script src="script.js"></script> <!--reference the javascript file-->
+        </body>
+    </html>

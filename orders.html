@@ -1,0 +1,52 @@
+<!--Name: Serena Edwards
+    ID: 2306227
+    Lecturer: Ms. Christine Anuli
+    Module Name: Web Programming
+    Occurrence: UM2
+    Day and Time: Thursday 1pm to 3pm-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders - Stitch & Thread Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Stitch & Thread Co.</h1>
+      <nav>
+        <a href="aboutUs.html"><span class="material-icons">info</span> About Us</a>
+        <a href="products.html"><span class="material-icons">shopping_bag</span> Products</a>
+        <a href="cart.html"><span class="material-icons">shopping_cart</span> Cart</a>
+        <a href="checkout.html"><span class="material-icons">shopping_cart_checkout</span> Checkout</a>
+        <a href="contactUs.html"><span class="material-icons">contact_mail</span> Contact Us</a>
+      </nav>
+    </header>
+
+    <!-- Sidebar + Content -->
+    <div class="main-container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>My Account</h2>
+        <a href="profile.html"><span class="material-icons">person</span> Profile</a>
+        <a href="orders.html"><span class="material-icons">receipt_long</span> Orders</a>
+        <a id="logoutBtn" href="#"> <span class="material-icons">logout</span> Logout</a>
+      </div>
+
+      <!-- Main Content -->
+      <div class="contentOrders">
+        <h2>Orders</h2>
+        <div class="order-list" id="orderList">
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!--Name: Serena Edwards
+    ID: 2306227
+    Lecturer: Ms. Christine Anuli
+    Module Name: Web Programming
+    Occurrence: UM2
+    Day and Time: Thursday 1pm to 3pm--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stitch & Thread Co - Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Stitch & Thread Co.</h1>
+    <nav>
+      <a href="aboutUs.html"><span class="material-icons">info</span> About Us</a>
+      <a href="products.html"><span class="material-icons">shopping_bag</span> Products</a>
+      <a href="cart.html"><span class="material-icons">shopping_cart</span> Cart</a>
+      <a href="checkout.html"><span class="material-icons">shopping_cart_checkout</span> Checkout</a>
+      <a href="contactUs.html"><span class="material-icons">contact_mail</span> Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+
+    <!--contact information-->
+    <div class="contact-info">
+        <h2> Get In Touch With Us</h2>
+
+        <div class="info-box">
+        <span class="material-icons">call</span>
+        <div>
+          <h3>Phone Number</h3>
+          <p>+1 (876) 555-2345</p>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <span class="material-icons">email</span>
+        <div>
+          <h3>Email</h3>
+          <p>support@stitchandthreadco.com</p>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <span class="material-icons">location_on</span>
+        <div>
+          <h3>Location</h3>
+          <p>Shop #5, Fairview Shopping Centre, Kingston, Jamaica</p>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <span class="material-icons">schedule</span>
+        <div>
+          <h3>Working Hours</h3>
+          <p>Monday – Saturday<br>9:00 AM – 6:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Form -->
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form id="contactForm" class="contactform">
+        <div class="form-row">
+          <input type="text" placeholder="First Name *" required>
+          <input type="text" placeholder="Last Name *" required>
+        </div>
+
+        <div class="form-row">
+          <input type="tel" placeholder="Mobile No *" required>
+          <input type="email" placeholder="Email ID *" required>
+        </div>
+
+        <textarea placeholder="Message" rows="4" required></textarea>
+
+        <label for="captcha">Please type the characters *</label>
+        <div class="captcha-box">
+          <p>p * tg</p>
+          <input type="text" id="captcha" required>
+        </div>
+
+        <p class="note">This helps us prevent spam, thank you.</p>
+
+        <button type="submit" class="submit-btn">
+          <span class="material-icons">send</span> Submit
+        </button>
+      </form>
+    </div>
+  </section>
+  
+  <script src="script.js"></script> <!-- reference to JavaScript -->
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!--Name: Serena Edwards
+    ID: 2306227
+    Lecturer: Ms. Christine Anuli
+    Module Name: Web Programming
+    Occurrence: UM2
+    Day and Time: Thursday 1pm to 3pm-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch & Thread Co. - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="register-container">
+    <!-- Left column: Image -->
+    <div class="register-left">
+        <img src="registerCrochet.jpg" alt="Stitch & Thread Yarn">
+    </div>
+
+    <!-- Right column: Form -->
+    <div class="register-right">
+        <h2 id="pageName">Register An Account</h2>
+        <form id="registerForm">
+            <div class="input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Name" required>
+            </div>
+            <div class="input">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+            </div>
+            <div class="input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter a valid email" required>
+            </div>
+            <div class="input">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter Username" required>
+            </div>
+            <div class="input">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <button type="submit" id="signupBTN" class="signupBTN">Sign Up</button>
+            <p>Have an Account?  
+                <button id="goTologinBTN" type="button" class="loginBTN">Login</button> 
+            </p>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
