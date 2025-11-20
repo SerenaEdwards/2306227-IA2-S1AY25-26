@@ -98,7 +98,7 @@ if (goToSignupBTN) {
 const goTologinBTN = document.getElementById("goTologinBTN");
 if (goTologinBTN) {
   goTologinBTN.addEventListener("click", function() {
-    window.location.href = "login.html";
+    window.location.href = "logIn.html";
   });
 }
 
@@ -642,3 +642,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
