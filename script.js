@@ -108,7 +108,7 @@ if (goTologinBTN) {
 if (logoutBtn) {
     logoutBtn.addEventListener("click", () => {
         alert("You have been logged out.");
-        window.location.href = "login.html";
+        window.location.href = "logIn.html";
     });
 }
 
@@ -448,7 +448,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!loggedInUser) {
         alert("⚠️ Please log in before checking out.");
-        window.location.href = "login.html";
+        window.location.href = "logIn.html";
         return;
       }
 
@@ -506,7 +506,7 @@ Shipping to: ${address}`);
 
    document.getElementById("close").addEventListener("click", () => {
    alert("Thank you for shopping at Stitch & Thread Co!");
-   window.location.href = "login.html"; //redirects to login page
+   window.location.href = "logIn.html"; //redirects to login page
    }); 
   }
 });
@@ -522,7 +522,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!loggedInUser) {
       alert("⚠️ Please log in to view your orders.");
-      window.location.href = "login.html";
+      window.location.href = "logIn.html";
       return;
     }
 
@@ -594,7 +594,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
     if (!loggedInUser) {
       alert("⚠️ Please log in to view your profile.");
-      window.location.href = "login.html";
+      window.location.href = "logIn.html";
       return;
     }
 
@@ -642,4 +642,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
-
