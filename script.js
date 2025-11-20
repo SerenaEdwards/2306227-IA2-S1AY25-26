@@ -54,7 +54,7 @@ if (registerForm) {  //only runs on register page
     alert("Registration successful! Please log in.");
 
     setTimeout(() => {
-    window.location.href = "login.html";
+    window.location.href = "logIn.html";
     }, 6000); // 6 seconds delay
   
   });
@@ -642,3 +642,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
