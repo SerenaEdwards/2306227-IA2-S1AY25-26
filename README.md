@@ -1,9 +1,15 @@
-# 🌐 [Your Project Name]
+# 🌐 Stitch and Thread E-commerce Website
 
 ## 📌 Overview
 This project is a web application developed as part of my Web Programming course.  
-It serves as an eccommerce website to the Stitch & Thread crochet company. You are allowed to view products, add to your cart and checkout. 
-You can also view the about us and contact page. 
+It serves as an e-commerce website for the *Stitch & Thread Crochet Company*.  
+
+Users can:
+- Browse available crochet products  
+- Add items to their cart  
+- Proceed to checkout  
+
+The website also includes an **About Us** page and a **Contact** page to provide additional information about the business.
 
 ## 🚀 Live Demo
 🔗 
